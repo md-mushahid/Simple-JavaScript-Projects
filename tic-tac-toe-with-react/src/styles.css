@@ -1,0 +1,66 @@
+/* Game Board */
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Status */
+  .status {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  /* Individual Squares */
+  .square {
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    border: 2px solid #333;
+    background: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background: #f0f0f0;
+  }
+  
+  /* Board Rows */
+  .board-row {
+    display: flex;
+  }
+  
+  /* Game Info (Move List) */
+  .game-info {
+    margin-top: 20px;
+  }
+  
+  /* Move List */
+  .game-info ol {
+    padding-left: 20px;
+  }
+  
+  .game-info ol li {
+    margin-bottom: 5px;
+  }
+  
+  /* Button for Moves */
+  .game-info button {
+    align-items: center;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .game-info button:hover {
+    background-color: #0056b3;
+  }
+  
